@@ -1,0 +1,20 @@
+<persistence version="2.1"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="testappPU">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <non-jta-data-source>DefaultDS</non-jta-data-source>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL9Dialect"/>
+            <!--
+            <property name="javax.persistence.schema-generation.database.action" value="create"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://g3920/tejotes"/>
+            <property name="javax.persistence.jdbc.user" value="tejotesjpa"/>
+            <property name="javax.persistence.jdbc.password" value="hallo"/>
+            <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+            -->
+        </properties>
+    </persistence-unit>
+</persistence>
