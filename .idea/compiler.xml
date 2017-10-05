@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gsaccessingdatajpa" />
+        <module name="gsaccessingdatamongodb" />
+        <module name="gsaccessingdatarest" />
+        <module name="gsconsumingrest" />
+        <module name="gsrelationaldataaccess" />
+        <module name="gsrestservice" />
+        <module name="springinjectest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gsaccessingdatajpa" target="1.8" />
+      <module name="gsaccessingdatamongodb" target="1.8" />
+      <module name="gsaccessingdatarest" target="1.8" />
+      <module name="gsconsumingrest" target="1.8" />
+      <module name="gsrelationaldataaccess" target="1.8" />
+      <module name="gsrestservice" target="1.8" />
+      <module name="jpa170827" target="1.8" />
+      <module name="springinjectest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

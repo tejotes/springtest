@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gsaccessingdatajpa/gsaccessingdatajpa.iml" filepath="$PROJECT_DIR$/gsaccessingdatajpa/gsaccessingdatajpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gsaccessingdatamongodb/gsaccessingdatamongodb.iml" filepath="$PROJECT_DIR$/gsaccessingdatamongodb/gsaccessingdatamongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gsaccessingdatarest/gsaccessingdatarest.iml" filepath="$PROJECT_DIR$/gsaccessingdatarest/gsaccessingdatarest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gsconsumingrest/gsconsumingrest.iml" filepath="$PROJECT_DIR$/gsconsumingrest/gsconsumingrest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gsrelationaldataaccess/gsrelationaldataaccess.iml" filepath="$PROJECT_DIR$/gsrelationaldataaccess/gsrelationaldataaccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gsrestservice/gsrestservice.iml" filepath="$PROJECT_DIR$/gsrestservice/gsrestservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa170827/jpa170827.iml" filepath="$PROJECT_DIR$/jpa170827/jpa170827.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springinjectest/springinjectest.iml" filepath="$PROJECT_DIR$/springinjectest/springinjectest.iml" />
+    </modules>
+  </component>
+</project>
