@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+>
+
+    <context:component-scan base-package="injectest"/>
+
+    <bean id="customEditorConfigurer" class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+        <property name="propertyEditorRegistrars">
+            <list>
+                <bean class="utils.CustomDateEditorRegistrar"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean name="thomas" class="injectest.Person">
+        <qualifier value="thomas"/>
+        <property name="nachname" value="Steinhart"/>
+        <property name="vorname" value="Thomas"/>
+        <property name="geburtsDatum" value="1967-10-01"/>
+    </bean>
+
+    <bean name="stefanie" class="injectest.Person">
+        <qualifier value="stefanie"/>
+        <property name="nachname" value="Schucker"/>
+        <property name="vorname" value="Stefanie"/>
+        <property name="geburtsDatum" value="1970-09-13"/>
+    </bean>
+
+    <bean name="ra-lp843" class="injectest.Auto">
+        <qualifier value="thomas"/>
+        <property name="kennzeichen" value="RA-LP 843"/>
+        <property name="hersteller" value="Audi"/>
+    </bean>
+
+    <bean name="ka-tp939" class="injectest.Auto">
+        <qualifier value="thomas"/>
+        <property name="kennzeichen" value="KA-TP 939"/>
+        <property name="hersteller" value="Volkswagen"/>
+    </bean>
+
+    <bean name="ka-tp1309" class="injectest.Auto">
+        <qualifier value="stefanie"/>
+        <property name="kennzeichen" value="KA-TP 1309"/>
+        <property name="hersteller" value="Volkswagen"/>
+    </bean>
+
+    <bean name="app" class="injectest.Application"/>
+
+</beans>
