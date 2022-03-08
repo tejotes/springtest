@@ -14,7 +14,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <hibernate-core.version>5.2.10.Final</hibernate-core.version>
+        <hibernate-core.version>5.4.24.Final</hibernate-core.version>
         <dataSource.project.driverClass>org.postgresql.Driver</dataSource.project.driverClass>
         <dataSource.project.jdbcURL>jdbc:postgresql://g3920.fritz.box:5432/tejotes</dataSource.project.jdbcURL>
         <dataSource.project.user>tejotesjpa</dataSource.project.user>
