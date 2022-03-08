@@ -21,7 +21,7 @@
         <dataSource.project.password>hallo</dataSource.project.password>
         <liquibase.contexts>dev</liquibase.contexts>
         <liquibase-maven-plugin.version>3.5.3</liquibase-maven-plugin.version>
-        <postgres.version>42.1.4</postgres.version>
+        <postgres.version>42.3.3</postgres.version>
         <slf4j.version>1.6.1</slf4j.version>
         <log4j.version>1.6.1</log4j.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
